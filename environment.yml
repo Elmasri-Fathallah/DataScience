@@ -1,0 +1,14 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # or any version you prefer
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab  # or jupyter if you prefer
+  - pip
+  - pip:
+    - some-pip-package  # replace with actual package names
